@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 
-import { TransactionsContext } from '../Hooks/TransContext';
+import { TransactionsContext } from '../../Hooks/TransContext';
 
 export const AddTransaction = () => {
 
