@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import { Transaction } from "./Transaction";
+import { Transaction } from "./Transactions";
 
 import { TransactionsContext } from "../Hooks/TransContext";
 
