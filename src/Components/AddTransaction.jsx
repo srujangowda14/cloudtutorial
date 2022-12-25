@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 
-import { TransactionsContext } from '../../Hooks/TransContext';
+import { TransactionsContext } from '../Hooks/TransContext';
 
 export const AddTransaction = () => {
 
@@ -46,7 +46,7 @@ export const AddTransaction = () => {
                             id="transactionamount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
-                            placeholder="Dollar Value of Transaction"
+                            placeholder="+ for income and - for expense"
                             required="required"
                     />
                 </div>

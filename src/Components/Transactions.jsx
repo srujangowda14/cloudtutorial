@@ -12,7 +12,7 @@ export const Transaction = ({ transaction }) => {
     <li className={transactionType}>
       {transaction.description}
       <span>
-        {sign}${Math.abs(transaction.transactionAmount)}
+        {sign}₹{Math.abs(transaction.transactionAmount)}
       </span>
       <button
         className="delete-btn"
